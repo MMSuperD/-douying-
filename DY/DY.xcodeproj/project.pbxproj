@@ -10,7 +10,10 @@
 		7A3EC116221F9D2D006EA121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC115221F9D2D006EA121 /* AppDelegate.swift */; };
 		7A3EC11D221F9D2E006EA121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3EC11C221F9D2E006EA121 /* Assets.xcassets */; };
 		7A3EC120221F9D2E006EA121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3EC11E221F9D2E006EA121 /* LaunchScreen.storyboard */; };
-		7A3EC12A221FA26E006EA121 /* SDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC129221FA26E006EA121 /* SDBaseViewController.swift */; };
+		7A3EC12F221FCB7F006EA121 /* ConstFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC12E221FCB7F006EA121 /* ConstFile.swift */; };
+		7A3EC131221FD1FC006EA121 /* Progame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC130221FD1FC006EA121 /* Progame.swift */; };
+		7A3EC134221FDD1F006EA121 /* DY_BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC133221FDD1F006EA121 /* DY_BaseViewController.swift */; };
+		7A3EC136221FDD53006EA121 /* DY_BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC135221FDD53006EA121 /* DY_BaseScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +22,10 @@
 		7A3EC11C221F9D2E006EA121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3EC11F221F9D2E006EA121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A3EC121221F9D2E006EA121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A3EC129221FA26E006EA121 /* SDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBaseViewController.swift; sourceTree = "<group>"; };
+		7A3EC12E221FCB7F006EA121 /* ConstFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstFile.swift; sourceTree = "<group>"; };
+		7A3EC130221FD1FC006EA121 /* Progame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progame.swift; sourceTree = "<group>"; };
+		7A3EC133221FDD1F006EA121 /* DY_BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DY_BaseViewController.swift; sourceTree = "<group>"; };
+		7A3EC135221FDD53006EA121 /* DY_BaseScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DY_BaseScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		7A3EC114221F9D2D006EA121 /* DY */ = {
 			isa = PBXGroup;
 			children = (
+				7A3EC12C221FC836006EA121 /* Tools */,
 				7A3EC127221FA1AE006EA121 /* Home */,
 				7A3EC115221F9D2D006EA121 /* AppDelegate.swift */,
 				7A3EC11C221F9D2E006EA121 /* Assets.xcassets */,
@@ -64,6 +71,7 @@
 		7A3EC127221FA1AE006EA121 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7A3EC132221FDCAC006EA121 /* View */,
 				7A3EC128221FA1C2006EA121 /* Controller */,
 			);
 			path = Home;
@@ -72,9 +80,26 @@
 		7A3EC128221FA1C2006EA121 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7A3EC129221FA26E006EA121 /* SDBaseViewController.swift */,
+				7A3EC133221FDD1F006EA121 /* DY_BaseViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A3EC12C221FC836006EA121 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7A3EC12E221FCB7F006EA121 /* ConstFile.swift */,
+				7A3EC130221FD1FC006EA121 /* Progame.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7A3EC132221FDCAC006EA121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A3EC135221FDD53006EA121 /* DY_BaseScrollView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +128,7 @@
 		7A3EC10A221F9D2D006EA121 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DY_;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = WangDan;
@@ -147,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3EC12A221FA26E006EA121 /* SDBaseViewController.swift in Sources */,
+				7A3EC136221FDD53006EA121 /* DY_BaseScrollView.swift in Sources */,
+				7A3EC134221FDD1F006EA121 /* DY_BaseViewController.swift in Sources */,
+				7A3EC12F221FCB7F006EA121 /* ConstFile.swift in Sources */,
 				7A3EC116221F9D2D006EA121 /* AppDelegate.swift in Sources */,
+				7A3EC131221FD1FC006EA121 /* Progame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.super.DY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

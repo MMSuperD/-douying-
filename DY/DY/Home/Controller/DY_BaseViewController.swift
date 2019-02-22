@@ -1,5 +1,5 @@
 //
-//  SDBaseViewController.swift
+//  DY_BaseViewController.swift
 //  DY
 //
 //  Created by sh-lx on 2019/2/22.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class SDBaseViewController: UIViewController {
+class DY_BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
+        view.backgroundColor = UIColor.red;
         // Do any additional setup after loading the view.
     }
     

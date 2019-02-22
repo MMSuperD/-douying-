@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
       
         window = UIWindow(frame: UIScreen.main.bounds)
-        let baseVc = SDBaseViewController()
+        let baseVc = DY_BaseViewController()
         let nv = UINavigationController(rootViewController: baseVc)
         window?.rootViewController = nv
         window?.backgroundColor = UIColor.green
