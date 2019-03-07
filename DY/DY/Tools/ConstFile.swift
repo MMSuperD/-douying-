@@ -20,6 +20,9 @@ let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 // 屏幕的尺寸
 let SCREEN_SIZE   = UIScreen.main.bounds.size
 
+// 屏幕的Bounds
+let SCREEN_BOUNDS   = UIScreen.main.bounds
+
 //顶部安全区域
 let SAVEAREA_TOP = (IS_IPHONE_X()) ? CGFloat(24.0) : CGFloat(0.0)
 

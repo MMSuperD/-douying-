@@ -14,6 +14,8 @@
 		7A3EC131221FD1FC006EA121 /* Progame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC130221FD1FC006EA121 /* Progame.swift */; };
 		7A3EC134221FDD1F006EA121 /* DY_BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC133221FDD1F006EA121 /* DY_BaseViewController.swift */; };
 		7A3EC136221FDD53006EA121 /* DY_BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EC135221FDD53006EA121 /* DY_BaseScrollView.swift */; };
+		7AB273E52230F38200588193 /* DY_AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB273E42230F38200588193 /* DY_AVPlayerViewController.swift */; };
+		7AB273E72230F79200588193 /* DY_BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB273E62230F79200588193 /* DY_BaseNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7A3EC130221FD1FC006EA121 /* Progame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progame.swift; sourceTree = "<group>"; };
 		7A3EC133221FDD1F006EA121 /* DY_BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DY_BaseViewController.swift; sourceTree = "<group>"; };
 		7A3EC135221FDD53006EA121 /* DY_BaseScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DY_BaseScrollView.swift; sourceTree = "<group>"; };
+		7AB273E42230F38200588193 /* DY_AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DY_AVPlayerViewController.swift; sourceTree = "<group>"; };
+		7AB273E62230F79200588193 /* DY_BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DY_BaseNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				7A3EC133221FDD1F006EA121 /* DY_BaseViewController.swift */,
+				7AB273E42230F38200588193 /* DY_AVPlayerViewController.swift */,
+				7AB273E62230F79200588193 /* DY_BaseNavigationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,11 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB273E72230F79200588193 /* DY_BaseNavigationViewController.swift in Sources */,
 				7A3EC136221FDD53006EA121 /* DY_BaseScrollView.swift in Sources */,
 				7A3EC134221FDD1F006EA121 /* DY_BaseViewController.swift in Sources */,
 				7A3EC12F221FCB7F006EA121 /* ConstFile.swift in Sources */,
 				7A3EC116221F9D2D006EA121 /* AppDelegate.swift in Sources */,
 				7A3EC131221FD1FC006EA121 /* Progame.swift in Sources */,
+				7AB273E52230F38200588193 /* DY_AVPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
